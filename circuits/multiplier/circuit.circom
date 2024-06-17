@@ -2,16 +2,22 @@ pragma circom 2.0.0;
 
 template Circuit () {
 
-    // Signal input a and b
+    // Signal input a
 
     signal input a;
+
+    // Signal input b
+
     signal input b;
 
-    // Intermidiate signals x and y
+    // Signal from gate x
     signal x;
+
+    // Signal from gate y
+
     signal y;
 
-    //output of whole circuit
+    //signal output
     signal output q;
 
     // function for gates
